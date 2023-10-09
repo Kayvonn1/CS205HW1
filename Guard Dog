@@ -1,0 +1,11 @@
+class GuardDog extends Dog {
+    private short meanness;
+
+    public void setMeanness(short meanness) {
+        this.meanness = meanness;
+    }
+
+    public short getMeanness() {
+        return meanness;
+    }
+}
