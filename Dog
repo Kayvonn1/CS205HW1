@@ -1,0 +1,22 @@
+class Dog implements Animal {
+	
+    private String furColor;
+
+    public void setFurColor(String color) {
+        this.furColor = color;
+    }
+
+    public String getFurColor() {
+        return furColor;
+    }
+
+    @Override
+    public void move() {
+        // Implementation of move for Dog
+    }
+
+    @Override
+    public void makeSound() {
+        // Implementation of makeSound for Dog
+    }
+}
